@@ -31,7 +31,6 @@ The ratio here is the time needed to decode the audio versus its duration. This 
 | 128 / 20 | 0.8135 | 3.231 | 0.2935 | 1.166167 | 0.1445 | 0.574333 |
 | 128 / 40 | 0.692583 | 2.83975 | 0.249833 | 1.024833 | 0.123083 | 0.504833 |
 | 128 / 60 | 0.386444 | 1.527889 | 0.139389 | 0.5515 | 0.068722 | 0.271611 |
-| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
 
 ## What parameters should I use?
 It all depends on the application.
@@ -41,3 +40,6 @@ At the same time, relatively low or high bitrates are the fastest in decoding. H
 ## Why audio is not encapsulated?
 Normally the opus stream is placed in an ogg container.
 In this scenario I gave up on it, because all needed information about frames can be hard coded. Thanks to this, specific audio frames are decoded directly, and thus the program runs faster and uses less memory.
+
+## Try it out
+Binary .uf2 files are [available to download](https://github.com/dawidpieper/pico-opus/releases/latest).
