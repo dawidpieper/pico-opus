@@ -1,3 +1,9 @@
 pico_opus/audiodata.c linguist-generated
 pico_opus_benchmark/audiodata.c linguist-generated
 pico_opus_benchmark_float/audiodata.c linguist-generated
+tools/opus.rb linguist-vendored
+pico_opus/pico_extras_import.cmake linguist-vendored
+pico_opus/pico_sdk_import.cmake linguist-vendored
+pico_opus_benchmark/pico_sdk_import.cmake linguist-vendored
+pico_opus_benchmark_float/pico_sdk_import.cmake linguist-vendored
+pico_opus/cs4344/audio_i2s.pio linguist-language=Assembly
