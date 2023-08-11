@@ -1,0 +1,9 @@
+[submodule "vendor/opus"]
+	path = vendor/opus
+	url = https://github.com/xiph/opus.git
+[submodule "vendor/pico-sdk"]
+	path = vendor/pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git
+[submodule "vendor/pico-extras"]
+	path = vendor/pico-extras
+	url = https://github.com/raspberrypi/pico-extras.git
